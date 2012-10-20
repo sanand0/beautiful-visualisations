@@ -30,4 +30,4 @@ while True:
     else:
         break
 
-print json.dumps(results)
+print json.dumps(results, indent=2)
