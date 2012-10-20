@@ -1,0 +1,45 @@
+<!DOCTYPE html><html>
+<head>
+  <meta charset="utf8">
+  <title>Word cloud</title>
+  <link rel="stylesheet" href="common.css">
+  <style type="text/css">
+  text { font-family: "Gill Sans MT"; }
+  </style>
+</head><body>
+
+<h1>Word cloud</h1>
+<p>The most frequent words used in the original <em>Valmiki <a href="http://www.sacred-texts.com/hin/rys/index.htm">Ramayana</a></em>, with some stopwords removed.</p>
+
+<svg width="940" height="600"></svg>
+
+<script src="d3.v2.js"></script>
+<script src="d3.layout.cloud.js"></script>
+<script>
+d3.csv('ramayana-subset.csv', function(data) {
+  var draw = function(words) {
+    d3.select("svg")
+      .append("g")
+        .attr("transform", "translate(470,300)")
+      .selectAll("text")
+        .data(words)
+      .enter().append("text")
+        .text(function(d) { return d.text; })
+        .attr("text-anchor", "middle")
+        .style("font-size", function(d) { return d.size + "px"; })
+        .attr("transform", function(d) {
+          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        })
+  };
+
+  var layout = d3.layout.cloud().size([940, 600])
+      .words(data.map(function(d) {
+        return {text: d.word, size: d.count};
+      }))
+      .rotate(function() { return 0; })
+      .fontSize(function(d) { return d.size / 3; })
+      .on("end", draw)
+      .start();
+
+});
+</script>

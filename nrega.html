@@ -1,0 +1,31 @@
+<!DOCTYPE html><html>
+<head>
+  <title>NREGA</title>
+  <link rel="stylesheet" href="common.css">
+</head><body>
+
+<h1>NREGA</h1>
+<p>Bubble size shows state's spend on NREGA. Horizontal axis shows % of Centre support. Vertical axis shows % spend on labour</p>
+<svg width="940" height="600">
+  <text x="935" y="595" text-anchor="end"   dominant-baseline="bottom" >Centre funded</text>
+  <text x="5"   y="595" text-anchor="start" dominant-baseline="bottom" >State funded</text>
+  <text x="5"   y="575" text-anchor="start" dominant-baseline="bottom" >Spend on raw materials</text>
+  <text x="5"   y="5"   text-anchor="start" dominant-baseline="hanging">Spend on labour</text>
+</svg>
+
+<script src="d3.v2.js"></script>
+<script>
+d3.csv('nrega.csv', function(data) {
+  d3.select('svg').selectAll('circle')
+      .data(data)
+    .enter()
+      .append('circle')
+      .attr('cx'  , function(d,i) { return d.Centre * 900 + 40; })
+      .attr('cy'  , function(d,i) { return (1 - d.Labour) * 1250 + 20; })
+      .attr('r'   , function(d,i) { return Math.pow(d.NREGA / 500000, .5) * 60; })
+      .attr('fill', function(d,i) { return 'hsla(' + Math.round(i * 360 / 13) + ',80%,40%,.4)' })
+      .append('title')
+        .text(function(d) { return d.Name })
+});
+</script>
+</body></html>

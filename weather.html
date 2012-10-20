@@ -1,0 +1,33 @@
+<!DOCTYPE html><html>
+<head>
+  <title>Weather</title>
+  <link rel="stylesheet" href="common.css">
+</head><body>
+
+<h1>Weather</h1>
+<p>India's weather over a century</p>
+
+<script src="d3.v2.js"></script>
+<script>
+var color = d3.scale.linear()
+    .domain([-20, 0, 20, 40])
+    .range(["blue", "green", "yellow", "red"]);
+d3.xml("weather.svg", "image/svg+xml", function(xml) {
+  document.body.appendChild(xml.documentElement);
+  d3.selectAll('path').attr('fill', '#fff');
+  d3.csv('weather.csv', function(data) {
+    for (var paths=[], i=0, row; row=data[i]; i++) {
+      paths.push(d3.select('g[title="' + row.state + '"] path[title="' + row.district + '"]').datum(row));
+    }
+
+    d3.keys(data[0]).slice(0, -2).forEach(function(month, i) {
+      setTimeout(function() {
+        for (var i=0, path; path=paths[i]; i++) {
+          path.attr('fill', color(path.datum()[month]));
+        }
+      }, i*50);
+    });
+  });
+});
+</script>
+</body></html>

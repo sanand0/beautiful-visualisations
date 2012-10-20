@@ -1,0 +1,95 @@
+name,errors,files
+'{a}' is already defined.,817,229
+'{a}' used out of scope.,8,2
+'{a}' was used before it was defined.,21584,3538
+A constructor name '{a}' should start with an uppercase letter.,117,87
+A css file should begin with @charset 'UTF-8';,1,1
+A leading decimal point can be confused with a dot: '.{a}'.,59,10
+A regular expression literal can be confused with '/='.,9,9
+A trailing decimal point can be confused with a dot: '.{a}'.,2,1
+Avoid '{a}'.,41,23
+Bad assignment.,13,13
+Bad for in variable '{a}'.,119,83
+Bad invocation.,1,1
+Combine this with the previous 'var' statement.,8969,1676
+Confusing use of '{a}'.,16,10
+"D:\Java Script Files\output\jslint2.js(6460, 1) Microsoft JScript runtime error: Input past end of file",11,11
+Do not mutate parameter '{a}' when using 'arguments'.,64,30
+Do not use 'new' for side effects.,24,13
+Do not use {a} as a constructor.,25,15
+Do not wrap function literals in parens unless they are to be immediately invoked.,3010,36
+Don't make functions within a loop.,118,67
+Don't use octal: '{a}'. Use '\u....' instead.,73,13
+Duplicate '{a}'.,77,13
+Empty block.,225,57
+Empty case.,2,2
+Expected '{a}' and instead saw '{b}'.,25357,2382
+"Expected '{a}' at column {b}, not column {c}.",195774,2991
+Expected '{a}' to match '{b}' from line {c} and instead saw '{d}'.,129,111
+Expected a conditional expression and instead saw an assignment.,1911,200
+Expected a number and instead saw '{a}'.,82,9
+Expected a string and instead saw '{a}'.,131,33
+Expected an assignment or function call and instead saw an expression.,3633,334
+Expected an identifier and instead saw '{a}' (a reserved word).,447,277
+Expected an identifier and instead saw '{a}'.,411,411
+Expected an operator and instead saw '{a}'.,7,7
+Expected exactly one space between '{a}' and '{b}'.,55483,3102
+Expected to see a statement and instead saw a block.,6,3
+Function statements are not invocable.Wrap the whole function invocation in parens.,5,5
+Function statements should not be placed in blocks.Use a function expression or move the statement to the top of the outer function.,21,12
+Implied eval is evil. Pass a function instead of a string.,26,14
+Insecure '{a}'.,1700,396
+It is not necessary to initialize '{a}' to 'undefined'.,22,12
+JavaScript URL.,6,5
+Missing 'use strict' statement.,13160,3433
+Missing '{a}' after '{b}'.,22,8
+Missing '{a}'.,1032,347
+Missing name in function statement.,9,9
+Missing radix parameter.,236,112
+Missing space between '{a}' and '{b}'.,130626,2147
+Mixed spaces and tabs.,1405,187
+Move 'var' declarations to the top of the function.,1219,1219
+Move the invocation into the parens that contain the function.,2585,357
+Nested comment.,18,18
+Only properties should be deleted.,3,3
+Read only.,25,23
+Reserved name '{a}'.,18,18
+Spaces are hard to count. Use {{a}}.,4,3
+Strange loop.,10,8
+Strict violation.,6,4
+The '&&' subexpression should be wrapped in parens.,266,113
+The Function constructor is eval.,28,21
+The body of a for in should be wrapped in an if statement to filter unwanted properties from the prototype.,214,145
+This is an ES5 feature.,844,27
+Unclosed string.,6,6
+Unescaped '{a}'.,505,168
+Unexpected 'else' after 'return'.,1144,404
+"Unexpected 'in'. Compare with undefined, or use the hasOwnProperty method instead.",375,135
+Unexpected 'typeof'. Use '===' to compare directly with {a}.,956,404
+Unexpected '{a}'.,17468,2712
+Unexpected /*property*/ '{a}'.,21,3
+Unexpected TODO comment.,390,173
+Unexpected dangling '_' in '{a}'.,14408,921
+Unexpected label '{a}'.,10,10
+Unexpected space between '{a}' and '{b}'.,37421,1031
+Unexpected sync method: '{a}'.,361,141
+Unnecessary 'use strict'.,1,1
+Unreachable '{a}' after '{b}'.,87,70
+Unsafe character.,1253,133
+Use a named parameter.,267,138
+Use the array literal notation [].,1320,164
+Use the function form of 'use strict'.,85,85
+Use the isNaN function to compare with NaN.,1,1
+Use the object literal notation {}.,37,26
+Use the || operator.,169,103
+Variable {a} was not declared correctly.,7,7
+Weird assignment.,19,11
+Weird condition.,209,144
+Weird construction. Delete 'new'.,2,2
+Weird program.,2,2
+Weird relation.,3,3
+"Wrap an immediate function invocation in parentheses to assist the reader in understanding that the expression is the result of a function, and not the function itself.",114,56
+Wrap the /regexp/ literal in parens to disambiguate the slash operator.,5,5
+['{a}'] is better written in dot notation.,1428,231
+document.write can be a form of eval.,29,20
+eval is evil.,115,79

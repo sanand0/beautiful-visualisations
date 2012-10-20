@@ -1,0 +1,10 @@
+@import "bootstrap.min.css";
+
+body { width: 940px; margin: 40px auto; }
+
+svg {
+    display: block;
+    margin: 40px auto;
+      -webkit-box-shadow: 3px 3px 5px 3px #aaa;
+              box-shadow: 3px 3px 5px 3px #aaa;
+}

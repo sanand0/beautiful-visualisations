@@ -1,0 +1,116 @@
+<!DOCTYPE html><html>
+<head>
+<title>Beautiful Visualisations</title>
+<link rel="stylesheet" href="common.css">
+<style>
+html, body { background-color: #24282a; font-family: "Trebuchet MS", sans-serif; }
+body { width: auto; margin: 0; }
+header, .header {
+    background-color: #000;
+    color: #F4B903;
+    padding: 1.5em 0;
+    margin-bottom: 2em;
+}
+
+header h1, .header h1 {
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+    width: 825px;
+}
+
+header .gramenerlogo, .header .gramenerlogo {
+    display: inline-block;
+    text-indent: -9999px;
+    width: 110px;
+    height: 20px;
+    background-image: url(data:image/png;base64,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);
+}
+.box {
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    line-height: 5;
+    list-style: none;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 18px;
+
+    text-align: center;
+    text-shadow: 0 -1px 2px #000; /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
+
+    background-color: #2D3135;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2D3135), to(#34383a)); /* Safari 4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #2D3135, #34383a); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #2D3135, #34383a); /* Firefox 3.6-15 */
+    background-image:      -o-linear-gradient(top, #2D3135, #34383a); /* Opera 11.10-12.00 */
+    background-image:         linear-gradient(to bottom, #2D3135, #34383a); /* Firefox 16+, IE10, Opera 12.50+ */
+
+    border-right: 1px solid #444;
+    border-bottom: 1px solid #444;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.box:hover {
+    border: 1px solid rgba(0,0,0,0);
+    background-color: #637c94;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#637c94), to(#293a42)); /* Safari 4+, Chrome */
+    background-image: -webkit-linear-gradient(top, #637c94, #293a42); /* Chrome 10+, Safari 5.1+, iOS 5+ */
+    background-image:    -moz-linear-gradient(top, #637c94, #293a42); /* Firefox 3.6-15 */
+    background-image:      -o-linear-gradient(top, #637c94, #293a42); /* Opera 11.10-12.00 */
+    background-image:         linear-gradient(to bottom, #637c94, #293a42); /* Firefox 16+, IE10, Opera 12.50+ */
+}
+a, a:hover { color: rgba(192, 216, 255, 0.75); text-decoration: none; }
+h2 { font-size: 300%; text-transform: uppercase; }
+h2, h3 { color: rgba(192, 216, 255, 0.75); }
+</style>
+</head><body>
+
+<div class="header">
+    <div class="container">
+        <h1>Beautiful Visualisations</h1>
+        <div class="gramenerlogo"></div>
+    </div>
+</div>
+
+<div class="container">
+ <div class="row">
+   <div class="span3"><img class="thumbnail" src="s-anand.jpg" alt="S Anand"></div>
+   <div class="span6">
+     <h2>S Anand</h2>
+     <h3>Chief Data Scientist</h3>
+     <h3>Gramener</h3>
+   </div>
+   <div class="span3">
+     <h2 style="font-family:Consolas,monospace"><a href="http://twitter.com/sanand0">@sanand0</a></h2>
+     <h3><a href="http://www.s-anand.net/">s-anand.net</a></h3>
+     <h3><a href="http://gramener.com/">gramener.com</a></h3>
+   </div>
+ </div>
+ <div class="row">
+  <a class="span3 box" href="http://bl.ocks.org/1256572">Showreel</a>
+  <a class="span3 box" href="nrega.html">NREGA</a>
+  <a class="span3 box" href="jslint.html">JSLint</a>
+  <a class="span3 box" href="https://blog.wealthfront.com/startup-employee-equity-compensation/">Compensation</a>
+  <a class="span3 box" href="weather.html">Weather</a>
+  <a class="span3 box" href="tweets.html">Tweets</a>
+  <a class="span3 box" href="shopping.html">Shopping</a>
+  <a class="span3 box" href="wordcloud.html">Ramayana</a>
+ </div>
+</div>
+</body></html>
+
+<!--
+  <li>Calendarmap of marks across states and years; monsoons;</li>
+  <li>Collapsible force layout to explore wordnet relationships</li>
+  <li>Do a Hans Rosling on movies / education / weather / weblog / ...</li>
+  <li>Explore a deep relationship network, book / tv serial / calls / mails / wordnet / ...</li>
+  <li>Map distortions based on population</li>
+  <li>Xkcd money with movie grosses / famous people incomes / followers / book words / ... but where is the animation?</li>
+  <li>Novartis survey animated.</li>
+  <li>Voronoi treemap over time</li>
+  <li>Game of life, with some tweaks</li>
+  <li>Color of a region based on photos.</li>
+  <li>Collage based on online images.</li>
+-->

@@ -1,0 +1,485 @@
+12,10: Expected exactly one space between 'function' and '('.
+12,12: Expected exactly one space between ')' and '{'.
+12,12: Missing space between ')' and '{'.
+13,1: Missing 'use strict' statement.
+13,1: Expected 'var' at column 5, not column 1.
+13,4: Unexpected '(space)'.
+15,5: Expected 'window' at column 13, not column 5.
+17,5: Expected 'undefined' at column 9, not column 5.
+17,5: Expected an identifier and instead saw 'undefined' (a reserved word).
+19,5: Unexpected dangling '_' in '_jQuery'.
+19,5: Expected '_jQuery' at column 9, not column 5.
+21,5: Unexpected dangling '_' in '_$'.
+21,5: Expected '_$' at column 9, not column 5.
+22,5: Expected 'jQuery' at column 9, not column 5.
+22,49: Expected exactly one space between 'function' and '('.
+22,51: Unexpected space between '(' and 'selector'.
+22,69: Unexpected space between 'context' and ')'.
+24,9: Expected 'return' at column 13, not column 9.
+24,36: Unexpected space between '(' and 'selector'.
+24,54: Unexpected space between 'context' and ')'.
+25,5: Expected '}' at column 9, not column 5.
+28,5: Expected 'quickExpr' at column 9, not column 5.
+28,20: Insecure '^'.
+28,27: Insecure '.'.
+28,36: Insecure '^'.
+28,48: Unescaped '-'.
+30,5: Expected 'isSimple' at column 9, not column 5.
+30,18: Insecure '.'.
+30,20: Insecure '^'.
+31,1: Expected 'jQuery' at column 5, not column 1.
+32,5: Expected 'init' at column 9, not column 5.
+32,19: Expected exactly one space between 'function' and '('.
+32,21: Unexpected space between '(' and 'selector'.
+32,39: Unexpected space between 'context' and ')'.
+34,9: Expected 'selector' at column 13, not column 9.
+34,32: 'document' was used before it was defined.
+36,9: Expected 'if' at column 13, not column 9.
+36,14: Unexpected space between '(' and 'selector'.
+36,32: Unexpected space between 'nodeType' and ')'.
+37,13: Expected 'this' at column 17, not column 13.
+38,13: Expected 'this' at column 17, not column 13.
+39,13: Expected 'this' at column 17, not column 13.
+40,13: Expected 'return' at column 17, not column 13.
+41,9: Expected '}' at column 13, not column 9.
+43,9: Expected 'if' at column 13, not column 9.
+43,14: Unexpected space between '(' and 'typeof'.
+43,43: Unexpected space between 'string' and ')'.
+45,13: Expected 'var' at column 17, not column 13.
+45,41: Unexpected space between '(' and 'selector'.
+45,50: Unexpected space between 'selector' and ')'.
+47,13: Expected 'if' at column 17, not column 13.
+47,18: Unexpected space between '(' and 'match'.
+47,50: Unexpected space between ')' and ')'.
+49,17: Expected 'if' at column 21, not column 17.
+49,22: Unexpected space between '(' and 'match'.
+49,31: Unexpected space between ']' and ')'.
+50,21: Expected exactly one space between ')' and 'selector'.
+50,21: Expected '{' and instead saw 'selector'.
+50,46: Unexpected space between '(' and '['.
+50,68: Unexpected space between 'context' and ')'.
+52,17: Expected exactly one space between ';' and 'else'.
+52,17: Expected 'else' at column 25, not column 17.
+53,21: Expected 'var' at column 29, not column 21.
+53,25: Combine this with the previous 'var' statement.
+53,57: Unexpected space between '(' and 'match'.
+53,66: Unexpected space between ']' and ')'.
+56,21: Expected 'if' at column 29, not column 21.
+56,26: Unexpected space between '(' and 'elem'.
+56,42: Expected '!==' and instead saw '!='.
+56,54: Unexpected space between ']' and ')'.
+57,25: Expected exactly one space between ')' and 'return'.
+57,25: Expected '{' and instead saw 'return'.
+57,25: Expected 'return' at column 29, not column 25.
+57,47: Unexpected space between '(' and 'selector'.
+57,56: Unexpected space between 'selector' and ')'.
+59,21: Expected 'var' at column 29, not column 21.
+59,25: Combine this with the previous 'var' statement.
+59,39: Unexpected space between '(' and 'elem'.
+59,50: Unexpected space between ']' and ')'.
+60,21: Expected 'ret' at column 29, not column 21.
+61,21: Expected 'ret' at column 29, not column 21.
+62,21: Expected 'return' at column 29, not column 21.
+63,17: Expected '}' at column 25, not column 17.
+66,13: Expected '}' at column 17, not column 13.
+67,17: Expected exactly one space between 'else' and 'return'.
+67,17: Expected '{' and instead saw 'return'.
+67,17: Expected 'return' at column 21, not column 17.
+67,32: Unexpected space between '(' and 'context'.
+67,40: Unexpected space between 'context' and ')'.
+67,48: Unexpected space between '(' and 'selector'.
+67,57: Unexpected space between 'selector' and ')'.
+67,17: Unexpected 'else' after 'return'.
+70,9: Expected '}' at column 13, not column 9.
+70,21: Unexpected space between '(' and 'jQuery'.
+70,40: Unexpected space between '(' and 'selector'.
+70,49: Unexpected space between 'selector' and ')'.
+70,51: Unexpected space between ')' and ')'.
+71,13: Expected exactly one space between ')' and 'return'.
+71,13: Expected '{' and instead saw 'return'.
+71,28: Unexpected space between '(' and 'document'.
+71,37: Unexpected space between 'document' and ')'.
+71,46: Unexpected space between '(' and 'selector'.
+71,55: Unexpected space between 'selector' and ')'.
+73,9: Expected 'if' at column 13, not column 9.
+73,14: Unexpected space between '(' and 'selector'.
+73,52: Unexpected space between 'context' and ')'.
+74,13: Expected 'this' at column 17, not column 13.
+75,13: Expected 'this' at column 17, not column 13.
+76,9: Expected '}' at column 13, not column 9.
+77,9: Expected 'return' at column 13, not column 9.
+77,46: Unexpected space between '(' and 'selector'.
+77,55: Unexpected space between 'selector' and ')'.
+78,13: Expected 'selector' at column 21, not column 13.
+79,13: Expected 'jQuery' at column 21, not column 13.
+80,5: Expected '}' at column 9, not column 5.
+82,5: Expected 'selector' at column 9, not column 5.
+84,5: Expected 'jquery' at column 9, not column 5.
+86,5: Expected 'size' at column 9, not column 5.
+86,19: Expected exactly one space between 'function' and '('.
+87,9: Expected 'return' at column 13, not column 9.
+88,5: Expected '}' at column 9, not column 5.
+91,5: Expected 'get' at column 9, not column 5.
+91,18: Expected exactly one space between 'function' and '('.
+91,20: Unexpected space between '(' and 'num'.
+91,24: Unexpected space between 'num' and ')'.
+92,9: Expected 'return' at column 13, not column 9.
+94,13: Expected 'Array' at column 21, not column 13.
+94,41: Unexpected space between '(' and 'this'.
+94,46: Unexpected space between 'this' and ')'.
+96,13: Expected 'this' at column 21, not column 13.
+96,19: Unexpected space between '[' and 'num'.
+96,23: Unexpected space between 'num' and ']'.
+97,5: Expected '}' at column 9, not column 5.
+100,5: Expected 'pushStack' at column 9, not column 5.
+100,24: Expected exactly one space between 'function' and '('.
+100,26: Unexpected space between '(' and 'elems'.
+100,48: Unexpected space between 'selector' and ')'.
+102,9: Expected 'var' at column 13, not column 9.
+102,27: Unexpected space between '(' and 'elems'.
+102,33: Unexpected space between 'elems' and ')'.
+104,9: Expected 'ret' at column 13, not column 9.
+105,9: Expected 'ret' at column 13, not column 9.
+106,9: Expected 'if' at column 13, not column 9.
+106,14: Unexpected space between '(' and 'name'.
+106,30: Unexpected space between 'find' and ')'.
+107,13: Expected exactly one space between ')' and 'ret'.
+107,13: Expected '{' and instead saw 'ret'.
+108,9: Expected exactly one space between ';' and 'else'.
+108,9: Expected 'else' at column 17, not column 9.
+108,19: Unexpected space between '(' and 'name'.
+108,24: Unexpected space between 'name' and ')'.
+109,13: Expected exactly one space between ')' and 'ret'.
+109,13: Expected '{' and instead saw 'ret'.
+111,9: Expected 'return' at column 13, not column 9.
+112,5: Expected '}' at column 9, not column 5.
+116,5: Expected 'setArray' at column 9, not column 5.
+116,23: Expected exactly one space between 'function' and '('.
+116,25: Unexpected space between '(' and 'elems'.
+116,31: Unexpected space between 'elems' and ')'.
+119,9: Expected 'this' at column 13, not column 9.
+120,9: Expected 'Array' at column 13, not column 9.
+120,37: Unexpected space between '(' and 'this'.
+120,49: Unexpected space between 'elems' and ')'.
+121,9: Expected 'return' at column 13, not column 9.
+122,5: Expected '}' at column 9, not column 5.
+126,5: Expected 'each' at column 9, not column 5.
+126,19: Expected exactly one space between 'function' and '('.
+126,21: Unexpected space between '(' and 'callback'.
+126,36: Unexpected space between 'args' and ')'.
+127,9: Expected 'return' at column 13, not column 9.
+127,29: Unexpected space between '(' and 'this'.
+127,50: Unexpected space between 'args' and ')'.
+128,5: Expected '}' at column 9, not column 5.
+131,5: Expected 'index' at column 9, not column 5.
+131,20: Expected exactly one space between 'function' and '('.
+131,22: Unexpected space between '(' and 'elem'.
+131,27: Unexpected space between 'elem' and ')'.
+133,9: Expected 'return' at column 13, not column 9.
+135,13: Expected 'elem' at column 17, not column 13.
+136,9: Unexpected space between 'elem' and ','.
+136,9: Expected ',' at column 21, not column 9.
+136,11: Expected 'this' at column 17, not column 11.
+136,16: Unexpected space between 'this' and ')'.
+136,16: Expected ')' at column 13, not column 16.
+137,5: Expected '}' at column 9, not column 5.
+138,5: Expected 'attr' at column 9, not column 5.
+138,19: Expected exactly one space between 'function' and '('.
+138,21: Unexpected space between '(' and 'name'.
+138,39: Unexpected space between 'type' and ')'.
+139,9: Expected 'var' at column 13, not column 9.
+141,9: Expected 'if' at column 13, not column 9.
+141,14: Unexpected space between '(' and 'typeof'.
+141,39: Unexpected space between 'string' and ')'.
+142,13: Expected exactly one space between ')' and 'if'.
+142,13: Expected '{' and instead saw 'if'.
+142,18: Unexpected space between '(' and 'value'.
+142,38: Unexpected space between 'undefined' and ')'.
+143,17: Expected exactly one space between ')' and 'return'.
+143,17: Expected '{' and instead saw 'return'.
+143,17: Expected 'return' at column 13, not column 17.
+143,43: Unexpected space between '[' and 'type'.
+143,58: Unexpected space between 'attr' and ']'.
+143,61: Unexpected space between '(' and 'this'.
+143,75: Unexpected space between 'name' and ')'.
+144,13: Expected exactly one space between ';' and 'else'.
+144,13: Expected 'else' at column 17, not column 13.
+145,17: Expected 'options' at column 21, not column 17.
+146,17: Expected 'options' at column 21, not column 17.
+146,26: Unexpected space between '[' and 'name'.
+146,31: Unexpected space between 'name' and ']'.
+147,13: Expected '}' at column 17, not column 13.
+149,9: Expected 'return' at column 13, not column 9.
+149,34: Expected exactly one space between 'function' and '('.
+149,37: Expected exactly one space between ')' and '{'.
+149,37: Missing space between ')' and '{'.
+151,13: Expected 'for' at column 17, not column 13.
+151,19: Unexpected space between '(' and 'name'.
+151,19: Bad for in variable 'name'.
+152,17: Expected '{' and instead saw 'jQuery'.
+154,25: Expected 'this' at column 29, not column 25.
+155,25: Expected 'this' at column 29, not column 25.
+156,27: Expected 'jQuery' at column 21, not column 27.
+156,40: Unexpected space between '(' and 'this'.
+156,55: Unexpected space between '[' and 'name'.
+156,60: Unexpected space between 'name' and ']'.
+156,77: Unexpected space between 'name' and ')'.
+151,13: The body of a for in should be wrapped in an if statement to filter unwanted properties from the prototype.
+158,9: Expected '}' at column 13, not column 9.
+159,5: Expected '}' at column 9, not column 5.
+160,5: Expected 'css' at column 9, not column 5.
+160,18: Expected exactly one space between 'function' and '('.
+160,20: Unexpected space between '(' and 'key'.
+160,31: Unexpected space between 'value' and ')'.
+162,9: Expected 'if' at column 13, not column 9.
+162,14: Unexpected space between '(' and '('.
+162,19: Expected '===' and instead saw '=='.
+162,37: Expected '===' and instead saw '=='.
+162,75: Unexpected space between '(number)' and ')'.
+163,13: Expected exactly one space between ')' and 'value'.
+163,13: Expected '{' and instead saw 'value'.
+164,9: Expected 'return' at column 13, not column 9.
+164,27: Unexpected space between '(' and 'key'.
+164,48: Unexpected space between 'curCSS' and ')'.
+165,5: Expected '}' at column 9, not column 5.
+166,5: Expected 'text' at column 9, not column 5.
+166,19: Expected exactly one space between 'function' and '('.
+166,21: Unexpected space between '(' and 'text'.
+166,26: Unexpected space between 'text' and ')'.
+167,9: Expected 'if' at column 13, not column 9.
+167,14: Unexpected space between '(' and 'typeof'.
+167,47: Expected '!==' and instead saw '!='.
+167,55: Unexpected space between 'null' and ')'.
+168,13: Expected exactly one space between ')' and 'return'.
+168,13: Expected '{' and instead saw 'return'.
+168,41: Unexpected space between '(' and '('.
+168,50: The '&&' subexpression should be wrapped in parens.
+168,78: 'document' was used before it was defined.
+168,104: Unexpected space between '(' and 'text'.
+168,109: Unexpected space between 'text' and ')'.
+168,111: Unexpected space between ')' and ')'.
+169,9: Expected 'var' at column 13, not column 9.
+170,9: Expected 'jQuery' at column 13, not column 9.
+170,22: Unexpected space between '(' and 'text'.
+170,44: Expected exactly one space between 'function' and '('.
+170,46: Expected exactly one space between ')' and '{'.
+170,46: Missing space between ')' and '{'.
+171,13: Expected 'jQuery' at column 17, not column 13.
+171,26: Unexpected space between '(' and 'this'.
+171,51: Expected exactly one space between 'function' and '('.
+171,53: Expected exactly one space between ')' and '{'.
+171,53: Missing space between ')' and '{'.
+172,17: Expected 'if' at column 21, not column 17.
+172,22: Unexpected space between '(' and 'this'.
+172,36: Expected '!==' and instead saw '!='.
+172,41: Unexpected space between '8' and ')'.
+173,21: Expected exactly one space between ')' and 'ret'.
+173,21: Expected '{' and instead saw 'ret'.
+173,42: Expected '!==' and instead saw '!='.
+174,25: Expected 'this' at column 29, not column 25.
+175,25: Expected 'jQuery' at column 29, not column 25.
+175,41: Unexpected space between '(' and '['.
+175,50: Unexpected space between ']' and ')'.
+176,13: Expected '}' at column 17, not column 13.
+177,9: Expected '}' at column 13, not column 9.
+178,9: Expected 'return' at column 13, not column 9.
+179,5: Expected '}' at column 9, not column 5.
+180,5: Expected 'wrapAll' at column 9, not column 5.
+180,22: Expected exactly one space between 'function' and '('.
+180,24: Unexpected space between '(' and 'html'.
+180,29: Unexpected space between 'html' and ')'.
+181,9: Expected 'if' at column 13, not column 9.
+181,14: Unexpected space between '(' and 'this'.
+181,22: Unexpected space between ']' and ')'.
+183,13: Expected 'var' at column 17, not column 13.
+183,32: Unexpected space between '(' and 'html'.
+183,60: Unexpected space between 'ownerDocument' and ')'.
+184,13: Expected 'if' at column 17, not column 13.
+184,18: Unexpected space between '(' and 'this'.
+184,37: Unexpected space between 'parentNode' and ')'.
+185,17: Expected exactly one space between ')' and 'wrap'.
+185,17: Expected '{' and instead saw 'wrap'.
+185,36: Unexpected space between '(' and 'this'.
+185,44: Unexpected space between ']' and ')'.
+186,13: Expected 'wrap' at column 17, not column 13.
+186,30: Expected exactly one space between 'function' and '('.
+186,32: Expected exactly one space between ')' and '{'.
+186,32: Missing space between ')' and '{'.
+187,17: Expected 'var' at column 21, not column 17.
+188,17: Expected 'while' at column 21, not column 17.
+188,25: Unexpected space between '(' and 'elem'.
+188,41: Unexpected space between 'firstChild' and ')'.
+189,21: Expected exactly one space between ')' and 'elem'.
+189,21: Expected '{' and instead saw 'elem'.
+190,17: Expected 'return' at column 21, not column 17.
+191,13: Expected '}' at column 17, not column 13.
+192,9: Expected '}' at column 13, not column 9.
+193,9: Expected 'return' at column 13, not column 9.
+194,5: Expected '}' at column 9, not column 5.
+195,5: Expected 'wrapInner' at column 9, not column 5.
+195,24: Expected exactly one space between 'function' and '('.
+195,26: Unexpected space between '(' and 'html'.
+195,31: Unexpected space between 'html' and ')'.
+196,9: Expected 'return' at column 13, not column 9.
+196,34: Expected exactly one space between 'function' and '('.
+196,36: Expected exactly one space between ')' and '{'.
+196,36: Missing space between ')' and '{'.
+197,13: Expected 'jQuery' at column 17, not column 13.
+197,21: Unexpected space between '(' and 'this'.
+197,26: Unexpected space between 'this' and ')'.
+197,48: Unexpected space between '(' and 'html'.
+197,53: Unexpected space between 'html' and ')'.
+198,9: Expected '}' at column 13, not column 9.
+199,5: Expected '}' at column 9, not column 5.
+200,5: Expected 'wrap' at column 9, not column 5.
+200,19: Expected exactly one space between 'function' and '('.
+200,21: Unexpected space between '(' and 'html'.
+200,26: Unexpected space between 'html' and ')'.
+201,9: Expected 'return' at column 13, not column 9.
+201,34: Expected exactly one space between 'function' and '('.
+201,36: Expected exactly one space between ')' and '{'.
+201,36: Missing space between ')' and '{'.
+202,13: Expected 'jQuery' at column 17, not column 13.
+202,21: Unexpected space between '(' and 'this'.
+202,26: Unexpected space between 'this' and ')'.
+202,37: Unexpected space between '(' and 'html'.
+202,42: Unexpected space between 'html' and ')'.
+203,9: Expected '}' at column 13, not column 9.
+204,5: Expected '}' at column 9, not column 5.
+205,5: Expected 'append' at column 9, not column 5.
+205,21: Expected exactly one space between 'function' and '('.
+206,9: Expected 'return' at column 13, not column 9.
+206,55: Expected exactly one space between 'function' and '('.
+206,61: Expected exactly one space between ')' and '{'.
+206,61: Missing space between ')' and '{'.
+207,13: Expected 'if' at column 17, not column 13.
+207,31: Expected '===' and instead saw '=='.
+208,17: Expected exactly one space between ')' and 'this'.
+208,17: Expected '{' and instead saw 'this'.
+208,35: Unexpected space between '(' and 'elem'.
+208,40: Unexpected space between 'elem' and ')'.
+209,9: Expected '}' at column 13, not column 9.
+210,5: Expected '}' at column 9, not column 5.
+211,5: Expected 'prepend' at column 9, not column 5.
+211,22: Expected exactly one space between 'function' and '('.
+212,9: Expected 'return' at column 13, not column 9.
+212,55: Expected exactly one space between 'function' and '('.
+212,61: Expected exactly one space between ')' and '{'.
+212,61: Missing space between ')' and '{'.
+213,13: Expected 'if' at column 17, not column 13.
+213,31: Expected '===' and instead saw '=='.
+214,17: Expected exactly one space between ')' and 'this'.
+214,17: Expected '{' and instead saw 'this'.
+214,36: Unexpected space between '(' and 'elem'.
+214,58: Unexpected space between 'firstChild' and ')'.
+215,9: Expected '}' at column 13, not column 9.
+216,5: Expected '}' at column 9, not column 5.
+217,5: Expected 'before' at column 9, not column 5.
+217,21: Expected exactly one space between 'function' and '('.
+218,9: Expected 'return' at column 13, not column 9.
+218,56: Expected exactly one space between 'function' and '('.
+218,62: Expected exactly one space between ')' and '{'.
+218,62: Missing space between ')' and '{'.
+219,13: Expected 'this' at column 17, not column 13.
+219,43: Unexpected space between '(' and 'elem'.
+219,54: Unexpected space between 'this' and ')'.
+220,9: Expected '}' at column 13, not column 9.
+221,5: Expected '}' at column 9, not column 5.
+222,5: Expected 'after' at column 9, not column 5.
+222,20: Expected exactly one space between 'function' and '('.
+223,9: Expected 'return' at column 13, not column 9.
+223,56: Expected exactly one space between 'function' and '('.
+223,62: Expected exactly one space between ')' and '{'.
+223,62: Missing space between ')' and '{'.
+224,13: Expected 'this' at column 17, not column 13.
+224,43: Unexpected space between '(' and 'elem'.
+224,66: Unexpected space between 'nextSibling' and ')'.
+225,9: Expected '}' at column 13, not column 9.
+226,5: Expected '}' at column 9, not column 5.
+227,5: Expected 'end' at column 9, not column 5.
+227,18: Expected exactly one space between 'function' and '('.
+228,9: Expected 'return' at column 13, not column 9.
+228,43: Unexpected space between '(' and '['.
+228,46: Unexpected space between ']' and ')'.
+229,5: Expected '}' at column 9, not column 5.
+232,5: Expected 'push' at column 9, not column 5.
+233,5: Expected 'sort' at column 9, not column 5.
+234,5: Expected 'splice' at column 9, not column 5.
+235,5: Expected 'find' at column 9, not column 5.
+235,19: Expected exactly one space between 'function' and '('.
+235,21: Unexpected space between '(' and 'selector'.
+235,30: Unexpected space between 'selector' and ')'.
+236,9: Expected 'if' at column 13, not column 9.
+236,14: Unexpected space between '(' and 'this'.
+236,32: Unexpected space between '1' and ')'.
+237,13: Expected 'var' at column 17, not column 13.
+237,39: Unexpected space between '(' and '['.
+237,60: Unexpected space between 'selector' and ')'.
+238,13: Expected 'ret' at column 17, not column 13.
+239,13: Expected 'jQuery' at column 17, not column 13.
+239,26: Unexpected space between '(' and 'selector'.
+239,49: Unexpected space between 'ret' and ')'.
+240,13: Expected 'return' at column 17, not column 13.
+240,13: Unexpected 'else' after 'return'.
+241,9: Expected '}' at column 13, not column 9.
+242,13: Expected 'return' at column 17, not column 13.
+242,36: Unexpected space between '(' and 'jQuery'.
+242,75: Expected exactly one space between 'function' and '('.
+242,81: Expected exactly one space between ')' and '{'.
+242,81: Missing space between ')' and '{'.
+243,17: Expected 'return' at column 21, not column 17.
+243,37: Unexpected space between '(' and 'selector'.
+243,52: Unexpected space between 'elem' and ')'.
+244,13: Expected '}' at column 17, not column 13.
+244,35: Unexpected space between 'selector' and ')'.
+245,9: Expected '}' at column 13, not column 9.
+246,5: Expected '}' at column 9, not column 5.
+247,5: Expected 'clone' at column 9, not column 5.
+247,20: Expected exactly one space between 'function' and '('.
+247,22: Unexpected space between '(' and 'events'.
+247,29: Unexpected space between 'events' and ')'.
+249,9: Expected 'var' at column 13, not column 9.
+249,36: Expected exactly one space between 'function' and '('.
+249,38: Expected exactly one space between ')' and '{'.
+249,38: Missing space between ')' and '{'.
+250,13: Expected 'if' at column 21, not column 13.
+250,18: Unexpected space between '(' and '!'.
+250,73: Unexpected space between ')' and ')'.
+259,17: Expected 'var' at column 25, not column 17.
+260,17: Expected 'if' at column 25, not column 17.
+260,22: Unexpected space between '(' and '!'.
+260,28: Unexpected space between 'html' and ')'.
+261,21: Expected 'var' at column 29, not column 21.
+261,25: Combine this with the previous 'var' statement.
+262,21: Expected 'div' at column 29, not column 21.
+262,38: Unexpected space between '(' and 'this'.
+262,59: Unexpected space between ')' and ')'.
+263,21: Expected 'html' at column 29, not column 21.
+264,17: Expected '}' at column 25, not column 17.
+265,17: Expected 'return' at column 25, not column 17.
+265,17: Unexpected 'else' after 'return'.
+266,13: Expected '}' at column 21, not column 13.
+267,17: Expected exactly one space between 'else' and 'return'.
+267,17: Expected '{' and instead saw 'return'.
+267,17: Expected 'return' at column 25, not column 17.
+268,9: Expected '}' at column 17, not column 9.
+270,9: Expected 'if' at column 13, not column 9.
+270,14: Unexpected space between '(' and 'events'.
+270,30: Unexpected space between 'true' and ')'.
+271,13: Expected 'var' at column 17, not column 13.
+271,17: Combine this with the previous 'var' statement.
+272,13: Expected 'ret' at column 17, not column 13.
+272,50: Expected exactly one space between 'function' and '('.
+272,52: Expected exactly one space between ')' and '{'.
+272,52: Missing space between ')' and '{'.
+273,17: Expected 'if' at column 21, not column 17.
+273,22: Unexpected space between '(' and 'this'.
+273,57: Unexpected space between 'nodeName' and ')'.
+274,21: Expected exactly one space between ')' and 'return'.
+274,21: Expected '{' and instead saw 'return'.
+275,17: Expected 'var' at column 21, not column 17.
+275,43: Unexpected space between '(' and 'orig'.
+275,61: Unexpected space between 'events' and ')'.
+276,17: Expected 'for' at column 21, not column 17.
+276,23: Unexpected space between '(' and 'var'.
+276,23: Move 'var' declarations to the top of the function.
