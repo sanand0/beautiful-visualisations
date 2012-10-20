@@ -16,7 +16,8 @@
 <script src="d3.v2.js"></script>
 <script src="d3.layout.cloud.js"></script>
 <script>
-d3.csv('ramayana-subset.csv', function(data) {
+var file = location.search.slice(1) || 'ramayana';
+d3.csv('wordcloud-' + file + '.csv', function(data) {
   var draw = function(words) {
     d3.select("svg")
       .append("g")
@@ -37,7 +38,7 @@ d3.csv('ramayana-subset.csv', function(data) {
         return {text: d.word, size: d.count};
       }))
       .rotate(function() { return 0; })
-      .fontSize(function(d) { return d.size / 3; })
+      .fontSize(function(d) { return 70 * d.size / data[0].count; })
       .on("end", draw)
       .start();
 
