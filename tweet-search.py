@@ -11,7 +11,7 @@ import urllib
 import json
 import httplib2
 
-h = httplib2.Http(".cache")
+h = httplib2.Http()
 
 BASE = 'http://search.twitter.com/search.json'
 url = BASE + '?result_type=recent&rpp=100&q=%s' % urllib.quote(sys.argv[1])
