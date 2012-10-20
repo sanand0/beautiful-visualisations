@@ -61,7 +61,8 @@ var showtweets = function(data) {
         .attr('r', '5')
         .style('fill', function(d) {
           d3.select('audio')[0][0].play();
-          return d.in_reply_to_status_id_str ? 'blue' : 'red';
+          return d.in_reply_to_status_id_str ? 'blue' :
+                 d.text.match(/^RT/) ? 'red' : 'black';
         })
         .call(force.drag)
         .append('title')
