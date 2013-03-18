@@ -11,6 +11,7 @@
   <a class="btn btn-small btn-primary" href="?jsfoo">#jsfoo</a>
   <a class="btn btn-small btn-primary" href="?pyconindia2012">#pyconindia2012</a>
   <a class="btn btn-small btn-primary" href="?parisweb">#parisweb</a>
+  <a class="btn btn-small btn-primary" href="?techedin">#techedin</a>
 </p>
 <audio src="bip.mp3"></audio>
 <svg width="940" height="600">
@@ -60,7 +61,7 @@ var showtweets = function(data) {
     node.enter().append('circle')
         .attr('r', '5')
         .style('fill', function(d) {
-          d3.select('audio')[0][0].play();
+          // d3.select('audio')[0][0].play();
           return d.in_reply_to_status_id_str ? 'blue' :
                  d.text.match(/^RT/) ? 'red' : 'black';
         })
